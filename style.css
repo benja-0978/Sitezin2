@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+ background: linear-gradient(135deg, #cdb4db, #ffc8dd);
+  color: #333;
+  text-align: center;
+}
+
+/* CAPA */
+.capa {
+  padding: 60px 20px;
+}
+
+.capa h1 {
+  font-size: 2.5em;
+}
+
+.capa p {
+  font-size: 1.2em;
+}
+
+/* SEÇÕES */
+section {
+  background: white;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* GALERIA */
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.fotos img {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+/* MENSAGENS */
+.mensagens {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+ background: #ffd1dc;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1.1em;
+}
+
+/* RODAPÉ */
+footer {
+  padding: 20px;
+  font-size: 0.9em;
+}
+button {
+  background: #ff9a9e;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background: #ff6f91;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+}
